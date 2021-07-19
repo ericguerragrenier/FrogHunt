@@ -26,7 +26,6 @@ function ChooseLogger(debug) {
             ele.style.display = "";
     } else {
         // This logger writes to a Firebase database
-        InitFirebase();
         logger = new FirebaseLogger(GetUserId());
     }
     return logger;
