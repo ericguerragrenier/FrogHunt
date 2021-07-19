@@ -1,66 +1,66 @@
-Family,Species,legsExposed,isMimic,Background,webURL,Photographer,URL
-Hylidae,D_versicolor,TRUE,TRUE,Tree,images/Dversicolor_001.jpg,Sheila Brown,https://www.publicdomainpictures.net/en/view-image.php?image=303271&picture=gray-tree-frog-climbing-tree
-Hylidae,D_versicolor,FALSE,TRUE,Ground,images/Dversicolor_002.jpg,Peter Paplanus,https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_(Hyla_versicolor)_(8716723960).jpg
-Hylidae,D_versicolor,TRUE,TRUE,Artificial,images/Dversicolor_003.jpg,Fredlyfish4,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelis_UMFS_2016_1.jpg
-Hylidae,D_versicolor,TRUE,TRUE,Tree,images/Dversicolor_004.jpg,Geoff Gallice,https://www.flickr.com/photos/11014423@N07/7358459928
-Hylidae,D_versicolor,TRUE,TRUE,Artificial,images/Dversicolor_005.jpg,Judy Gallagher,"https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_-_Hyla_versicolor_or_chrysoscelis_and_Gary,_Occoquan_Bay_National_Wildlife_Refuge,_Woodbridge,_Virginia_(37503327391).jpg"
-Hylidae,D_versicolor,TRUE,TRUE,Tree,images/Dversicolor_006.jpg,Wilafa,https://commons.wikimedia.org/wiki/File:Gray_Treefrog_(Hyla_versicolor)_Montgomery_Co._Texas._photo_by_W._L._Farr.jpg
-Hylidae,D_versicolor,FALSE,TRUE,Artificial,images/Dversicolor_007.jpg,Fredlyfish4,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelis_UMFS_2016_5.jpg
-Hylidae,D_versicolor,FALSE,TRUE,Ground,images/Dversicolor_008.jpg,Richard Crook,https://www.flickr.com/photos/richardwc/34378118453
-Hylidae,D_versicolor,FALSE,TRUE,Tree,images/Dversicolor_009.jpg,Agape Yojimbo,https://commons.wikimedia.org/wiki/File:Green-Treefrog-North-American-Gray-Species-5.JPG
-Hylidae,D_versicolor,FALSE,TRUE,Tree,images/Dversicolor_010.jpg,Patrick Coin,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelisPCCA20060401-2867B.jpg
-Hylidae,D_versicolor,TRUE,TRUE,Tree,images/Dversicolor_011.jpeg,Nathalie Jreidini,NA
-Hylidae,D_versicolor,FALSE,TRUE,Water,images/Dversicolor_012.jpeg,Nathalie Jreidini,NA
-Ranidae,L_clamitans,TRUE,FALSE,Water,images/Lclamitans_001.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Green_Frog_(Lithobates_clamitans)_-_Guelph,_Ontario_01.jpg"
-Ranidae,L_clamitans,TRUE,FALSE,Water,images/Lclamitans_002.jpg,Judy Gallagher,https://www.flickr.com/photos/52450054@N04/23417537914
-Ranidae,L_clamitans,FALSE,FALSE,Ground,images/Lclamitans_003.jpg,Mark Nenadov,https://commons.wikimedia.org/wiki/File:Northern_Green_Frog_(Lithobates_clamitans_melanota)_(29760682146).jpg
-Ranidae,L_clamitans,TRUE,FALSE,Water,images/Lclamitans_004.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Green_Frog_(Lithobates_clamitans)_-_Kitchener,_Ontario_02.jpg"
-Ranidae,L_clamitans,TRUE,FALSE,Ground,images/Lclamitans_005.jpg,Contrabaroness,"https://commons.wikimedia.org/wiki/File:Male_Green_Frog_-_Hunterdon_County,_NJ.jpg"
-Ranidae,L_clamitans,FALSE,FALSE,Ground,images/Lclamitans_006.jpg,Mark Nenadov,https://www.flickr.com/photos/marknenadov/24783424796/
-Ranidae,L_clamitans,TRUE,FALSE,Ground,images/Lclamitans_007.jpg,Derek Ramsey,https://commons.wikimedia.org/wiki/File:Green_Frog_Rana_clamitans_2448px.jpg
-Ranidae,L_clamitans,FALSE,FALSE,Ground,images/Lclamitans_008.jpeg,Kathy Hofmeyer Woughter,https://www.inaturalist.org/observations/86615593
-Ranidae,L_clamitans,FALSE,FALSE,Ground,images/Lclamitans_009.jpeg,Steven Lamonde,https://www.inaturalist.org/observations/86290352
-Ranidae,L_clamitans,FALSE,FALSE,Artificial,images/Lclamitans_010.jpeg,Kalvin Chan,https://www.inaturalist.org/observations/83938185
-Ranidae,L_palustris,TRUE,TRUE,Ground,images/Lpalustris_001.jpg,Peter Paplanus,https://commons.wikimedia.org/wiki/File:Pickerel_Frog_(Rana_palustris)_(26752825317).jpg
-Ranidae,L_palustris,FALSE,TRUE,Ground,images/Lpalustris_002.jpg,Judy Gallagher,"https://commons.wikimedia.org/wiki/File:Pickerel_Frog_-_Rana_palustris,_Leesylvania_State_Park,_Woodbridge,_Virginia.jpg"
-Ranidae,L_palustris,FALSE,TRUE,Ground,images/Lpalustris_003.jpg,Paul Cooper,https://www.flickr.com/photos/29261037@N02/48294546322
-Ranidae,L_palustris,TRUE,TRUE,Ground,images/Lpalustris_004.jpg,Brandon Preston,https://www.inaturalist.org/observations/70768812
-Ranidae,L_palustris,TRUE,TRUE,Ground,images/Lpalustris_005.jpg,mayfly1963,https://www.inaturalist.org/observations/7989045
-Ranidae,L_palustris,TRUE,TRUE,Artificial,images/Lpalustris_006.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/79171923
-Ranidae,L_palustris,TRUE,TRUE,Water,images/Lpalustris_007.jpeg,botanygirl,https://www.inaturalist.org/observations/40335773
-Ranidae,L_palustris,FALSE,TRUE,Ground,images/Lpalustris_008.jpeg,Laura Costello,https://www.inaturalist.org/observations/6918228
-Ranidae,L_palustris,FALSE,TRUE,Ground,images/Lpalustris_009.jpeg,Nick Block,https://www.inaturalist.org/observations/4098177
-Ranidae,L_palustris,FALSE,TRUE,Ground,images/Lpalustris_010.jpeg,Ashwin Srinivasan,https://www.inaturalist.org/observations/53798219
-Ranidae,L_pipiens,TRUE,FALSE,Artificial,images/Lpipiens_001.jpg,Brian Gratwicke,https://www.flickr.com/photos/briangratwicke/5898747773
-Ranidae,L_pipiens,TRUE,FALSE,Ground,images/Lpipiens_002.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Northern_Leopard_Frog_(Lithobates_pipiens)_-_Waterloo,_Ontario_02.jpg"
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_003.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Northern_Leopard_Frog_(Lithobates_pipiens)_-_Kitchener,_Ontario.jpg"
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_004.jpg,Bernell,https://pixabay.com/photos/northern-leopard-frog-1541635/
-Ranidae,L_pipiens,TRUE,FALSE,Water,images/Lpipiens_005.jpg,Will Brown,https://www.flickr.com/photos/37428634@N04/30223123828
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_006.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/80475392
-Ranidae,L_pipiens,TRUE,FALSE,Ground,images/Lpipiens_007.jpeg,georectified - Sean,https://www.inaturalist.org/observations/86946769
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_008.jpeg,Esben Kjaer,https://www.inaturalist.org/observations/83132119
-Ranidae,L_pipiens,TRUE,FALSE,Water,images/Lpipiens_009.jpg,houstonsullivan,https://www.inaturalist.org/observations/80265893
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_010.jpg,Marilynn Miller,https://www.inaturalist.org/observations/74313225
-Ranidae,L_pipiens,TRUE,FALSE,Ground,images/Lpipiens_011.jpeg,Nathalie Jreidini,NA
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_012.jpeg,Nathalie Jreidini,NA
-Ranidae,L_pipiens,FALSE,FALSE,Ground,images/Lpipiens_013.jpeg,Nathalie Jreidini,NA
-Ranidae,L_sylvaticus,FALSE,FALSE,Ground,images/Lsylvaticus_001.jpg,Peter Paplanus,https://www.flickr.com/photos/2ndpeter/25234151669
-Ranidae,L_sylvaticus,TRUE,FALSE,Ground,images/Lsylvaticus_002.jpg,Peter Paplanus,https://www.flickr.com/photos/2ndpeter/51020821926
-Ranidae,L_sylvaticus,TRUE,FALSE,Water,images/Lsylvaticus_003.jpg,christine123,https://www.inaturalist.org/observations/78651221
-Ranidae,L_sylvaticus,FALSE,FALSE,Ground,images/Lsylvaticus_004.jpg,Andy Reago & Chrissy McClarren,https://www.flickr.com/photos/wildreturn/32526283337
-Ranidae,L_sylvaticus,FALSE,FALSE,Ground,images/Lsylvaticus_005.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/79172568
-Ranidae,L_sylvaticus,TRUE,FALSE,Ground,images/Lsylvaticus_006.jpg,Sheila Collins Bourgoin,https://www.inaturalist.org/observations/81962076
-Ranidae,L_sylvaticus,TRUE,FALSE,Artificial,images/Lsylvaticus_007.jpg,David McCorquodale,https://www.inaturalist.org/observations/84582795
-Ranidae,L_sylvaticus,TRUE,FALSE,Water,images/Lsylvaticus_008.jpeg,Jacob Saucier,https://www.inaturalist.org/observations/81126442
-Ranidae,L_sylvaticus,FALSE,FALSE,Ground,images/Lsylvaticus_009.jpg,Patrick Hanly,https://www.inaturalist.org/observations/79418940
-Ranidae,L_sylvaticus,FALSE,FALSE,Ground,images/Lsylvaticus_010.jpg,Lisa Levine,https://www.inaturalist.org/observations/41855985
-Hylidae,P_crucifer,FALSE,FALSE,Artificial,images/P_crucifer_001.jpg,Brian Gratwicke,https://commons.wikimedia.org/wiki/File:Spring_Peeper_I.jpg
-Hylidae,P_crucifer,FALSE,FALSE,Ground,images/P_crucifer_002.jpg,Kevin Enge,https://www.flickr.com/photos/myfwc/14995946531
-Hylidae,P_crucifer,FALSE,FALSE,Ground,images/Pcrucifer_003.jpg,er-birds,https://www.inaturalist.org/observations/85927127
-Hylidae,P_crucifer,FALSE,FALSE,Fern,images/Pcrucifer_004.jpg,Dean Stavrides,https://www.inaturalist.org/observations/85953945
-Hylidae,P_crucifer,FALSE,FALSE,Ground,images/Pcrucifer_005.jpeg,Ali Campbell,https://www.inaturalist.org/observations/77850189
-Hylidae,P_crucifer,TRUE,FALSE,Tree,images/Pcrucifer_006.jpeg,Dan MacNeal,https://www.inaturalist.org/observations/73764408
-Hylidae,P_crucifer,TRUE,FALSE,Tree,images/Pcrucifer_007.jpg,Evan Grimes,https://www.inaturalist.org/observations/72017951
-Hylidae,P_crucifer,TRUE,FALSE,Artificial,images/Pcrucifer_008.jpg,David McCorquodale,https://www.inaturalist.org/observations/58528208
-Hylidae,P_crucifer,TRUE,FALSE,Artificial,images/Pcrucifer_009.jpg,Dan MacNeal,https://www.inaturalist.org/observations/7761163
-Hylidae,P_crucifer,TRUE,FALSE,Artificial,images/Pcrucifer_010.jpg,Laura Gaudette,https://www.inaturalist.org/observations/3880870
+isMimic,Family,Species,legsExposed,Angle,Background,webURL,Photographer,URL
+TRUE,Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_001.jpg,Sheila Brown,https://www.publicdomainpictures.net/en/view-image.php?image=303271&picture=gray-tree-frog-climbing-tree
+TRUE,Hylidae,D_versicolor,FALSE,NA,Ground,images/Dversicolor_002.jpg,Peter Paplanus,https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_(Hyla_versicolor)_(8716723960).jpg
+TRUE,Hylidae,D_versicolor,TRUE,NA,Artificial,images/Dversicolor_003.jpg,Fredlyfish4,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelis_UMFS_2016_1.jpg
+TRUE,Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_004.jpg,Geoff Gallice,https://www.flickr.com/photos/11014423@N07/7358459928
+TRUE,Hylidae,D_versicolor,TRUE,NA,Artificial,images/Dversicolor_005.jpg,Judy Gallagher,"https://commons.wikimedia.org/wiki/File:Gray_Tree_Frog_-_Hyla_versicolor_or_chrysoscelis_and_Gary,_Occoquan_Bay_National_Wildlife_Refuge,_Woodbridge,_Virginia_(37503327391).jpg"
+TRUE,Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_006.jpg,Wilafa,https://commons.wikimedia.org/wiki/File:Gray_Treefrog_(Hyla_versicolor)_Montgomery_Co._Texas._photo_by_W._L._Farr.jpg
+TRUE,Hylidae,D_versicolor,FALSE,NA,Artificial,images/Dversicolor_007.jpg,Fredlyfish4,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelis_UMFS_2016_5.jpg
+TRUE,Hylidae,D_versicolor,FALSE,NA,Ground,images/Dversicolor_008.jpg,Richard Crook,https://www.flickr.com/photos/richardwc/34378118453
+TRUE,Hylidae,D_versicolor,FALSE,NA,Tree,images/Dversicolor_009.jpg,Agape Yojimbo,https://commons.wikimedia.org/wiki/File:Green-Treefrog-North-American-Gray-Species-5.JPG
+TRUE,Hylidae,D_versicolor,FALSE,NA,Tree,images/Dversicolor_010.jpg,Patrick Coin,https://commons.wikimedia.org/wiki/File:Hyla_chrysoscelisPCCA20060401-2867B.jpg
+TRUE,Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_011.jpeg,Nathalie Jreidini,NA
+TRUE,Hylidae,D_versicolor,FALSE,NA,Water,images/Dversicolor_012.jpeg,Nathalie Jreidini,NA
+FALSE,Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_001.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Green_Frog_(Lithobates_clamitans)_-_Guelph,_Ontario_01.jpg"
+FALSE,Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_002.jpg,Judy Gallagher,https://www.flickr.com/photos/52450054@N04/23417537914
+FALSE,Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_003.jpg,Mark Nenadov,https://commons.wikimedia.org/wiki/File:Northern_Green_Frog_(Lithobates_clamitans_melanota)_(29760682146).jpg
+FALSE,Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_004.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Green_Frog_(Lithobates_clamitans)_-_Kitchener,_Ontario_02.jpg"
+FALSE,Ranidae,L_clamitans,TRUE,NA,Ground,images/Lclamitans_005.jpg,Contrabaroness,"https://commons.wikimedia.org/wiki/File:Male_Green_Frog_-_Hunterdon_County,_NJ.jpg"
+FALSE,Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_006.jpg,Mark Nenadov,https://www.flickr.com/photos/marknenadov/24783424796/
+FALSE,Ranidae,L_clamitans,TRUE,NA,Ground,images/Lclamitans_007.jpg,Derek Ramsey,https://commons.wikimedia.org/wiki/File:Green_Frog_Rana_clamitans_2448px.jpg
+FALSE,Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_008.jpeg,Kathy Hofmeyer Woughter,https://www.inaturalist.org/observations/86615593
+FALSE,Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_009.jpeg,Steven Lamonde,https://www.inaturalist.org/observations/86290352
+FALSE,Ranidae,L_clamitans,FALSE,NA,Artificial,images/Lclamitans_010.jpeg,Kalvin Chan,https://www.inaturalist.org/observations/83938185
+TRUE,Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_001.jpg,Peter Paplanus,https://commons.wikimedia.org/wiki/File:Pickerel_Frog_(Rana_palustris)_(26752825317).jpg
+TRUE,Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_002.jpg,Judy Gallagher,"https://commons.wikimedia.org/wiki/File:Pickerel_Frog_-_Rana_palustris,_Leesylvania_State_Park,_Woodbridge,_Virginia.jpg"
+TRUE,Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_003.jpg,Paul Cooper,https://www.flickr.com/photos/29261037@N02/48294546322
+TRUE,Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_004.jpg,Brandon Preston,https://www.inaturalist.org/observations/70768812
+TRUE,Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_005.jpg,mayfly1963,https://www.inaturalist.org/observations/7989045
+TRUE,Ranidae,L_palustris,TRUE,NA,Artificial,images/Lpalustris_006.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/79171923
+TRUE,Ranidae,L_palustris,TRUE,NA,Water,images/Lpalustris_007.jpeg,botanygirl,https://www.inaturalist.org/observations/40335773
+TRUE,Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_008.jpeg,Laura Costello,https://www.inaturalist.org/observations/6918228
+TRUE,Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_009.jpeg,Nick Block,https://www.inaturalist.org/observations/4098177
+TRUE,Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_010.jpeg,Ashwin Srinivasan,https://www.inaturalist.org/observations/53798219
+FALSE,Ranidae,L_pipiens,TRUE,NA,Artificial,images/Lpipiens_001.jpg,Brian Gratwicke,https://www.flickr.com/photos/briangratwicke/5898747773
+FALSE,Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_002.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Northern_Leopard_Frog_(Lithobates_pipiens)_-_Waterloo,_Ontario_02.jpg"
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_003.jpg,Ryan Hodnett,"https://commons.wikimedia.org/wiki/File:Northern_Leopard_Frog_(Lithobates_pipiens)_-_Kitchener,_Ontario.jpg"
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_004.jpg,Bernell,https://pixabay.com/photos/northern-leopard-frog-1541635/
+FALSE,Ranidae,L_pipiens,TRUE,NA,Water,images/Lpipiens_005.jpg,Will Brown,https://www.flickr.com/photos/37428634@N04/30223123828
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_006.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/80475392
+FALSE,Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_007.jpeg,georectified - Sean,https://www.inaturalist.org/observations/86946769
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_008.jpeg,Esben Kjaer,https://www.inaturalist.org/observations/83132119
+FALSE,Ranidae,L_pipiens,TRUE,NA,Water,images/Lpipiens_009.jpg,houstonsullivan,https://www.inaturalist.org/observations/80265893
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_010.jpg,Marilynn Miller,https://www.inaturalist.org/observations/74313225
+FALSE,Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_011.jpeg,Nathalie Jreidini,NA
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_012.jpeg,Nathalie Jreidini,NA
+FALSE,Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_013.jpeg,Nathalie Jreidini,NA
+FALSE,Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_001.jpg,Peter Paplanus,https://www.flickr.com/photos/2ndpeter/25234151669
+FALSE,Ranidae,L_sylvaticus,TRUE,NA,Ground,images/Lsylvaticus_002.jpg,Peter Paplanus,https://www.flickr.com/photos/2ndpeter/51020821926
+FALSE,Ranidae,L_sylvaticus,TRUE,NA,Water,images/Lsylvaticus_003.jpg,christine123,https://www.inaturalist.org/observations/78651221
+FALSE,Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_004.jpg,Andy Reago & Chrissy McClarren,https://www.flickr.com/photos/wildreturn/32526283337
+FALSE,Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_005.jpeg,Eric Guerra-Grenier,https://www.inaturalist.org/observations/79172568
+FALSE,Ranidae,L_sylvaticus,TRUE,NA,Ground,images/Lsylvaticus_006.jpg,Sheila Collins Bourgoin,https://www.inaturalist.org/observations/81962076
+FALSE,Ranidae,L_sylvaticus,TRUE,NA,Artificial,images/Lsylvaticus_007.jpg,David McCorquodale,https://www.inaturalist.org/observations/84582795
+FALSE,Ranidae,L_sylvaticus,TRUE,NA,Water,images/Lsylvaticus_008.jpeg,Jacob Saucier,https://www.inaturalist.org/observations/81126442
+FALSE,Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_009.jpg,Patrick Hanly,https://www.inaturalist.org/observations/79418940
+FALSE,Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_010.jpg,Lisa Levine,https://www.inaturalist.org/observations/41855985
+FALSE,Hylidae,P_crucifer,FALSE,NA,Artificial,images/P_crucifer_001.jpg,Brian Gratwicke,https://commons.wikimedia.org/wiki/File:Spring_Peeper_I.jpg
+FALSE,Hylidae,P_crucifer,FALSE,NA,Ground,images/P_crucifer_002.jpg,Kevin Enge,https://www.flickr.com/photos/myfwc/14995946531
+FALSE,Hylidae,P_crucifer,FALSE,NA,Ground,images/Pcrucifer_003.jpg,er-birds,https://www.inaturalist.org/observations/85927127
+FALSE,Hylidae,P_crucifer,FALSE,NA,Fern,images/Pcrucifer_004.jpg,Dean Stavrides,https://www.inaturalist.org/observations/85953945
+FALSE,Hylidae,P_crucifer,FALSE,NA,Ground,images/Pcrucifer_005.jpeg,Ali Campbell,https://www.inaturalist.org/observations/77850189
+FALSE,Hylidae,P_crucifer,TRUE,NA,Tree,images/Pcrucifer_006.jpeg,Dan MacNeal,https://www.inaturalist.org/observations/73764408
+FALSE,Hylidae,P_crucifer,TRUE,NA,Tree,images/Pcrucifer_007.jpg,Evan Grimes,https://www.inaturalist.org/observations/72017951
+FALSE,Hylidae,P_crucifer,TRUE,NA,Artificial,images/Pcrucifer_008.jpg,David McCorquodale,https://www.inaturalist.org/observations/58528208
+FALSE,Hylidae,P_crucifer,TRUE,NA,Artificial,images/Pcrucifer_009.jpg,Dan MacNeal,https://www.inaturalist.org/observations/7761163
+FALSE,Hylidae,P_crucifer,TRUE,NA,Artificial,images/Pcrucifer_010.jpg,Laura Gaudette,https://www.inaturalist.org/observations/3880870
