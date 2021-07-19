@@ -9,5 +9,5 @@ const showUserMistakes = true;
 
 // Where do we get photo info from?
 //const PHOTOS_INFO_URL = "https://jimmcl.github.io/EatUp/photo_info.csv";
-const PHOTOS_INFO_URL = "https://ericguerragrenier.github.io/froghunt/photo_info.csv";
+const PHOTOS_INFO_URL = "photo_info.csv";
 
