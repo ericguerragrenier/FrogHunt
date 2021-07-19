@@ -58,7 +58,6 @@ function PrepareAndStartTrial(logger, photosPerTrial, photosCsvUrl, photoEleId, 
         var candidatePhotos = data.map(n => {
             n.correctScore = n.isMimic == "TRUE" ? "Toxic" : "notToxic";
             n.url = n.webUrl;
-		n.weight = n.correctScore == "Toxic" ? 0.85 : 1;
             return n;
         });
 
