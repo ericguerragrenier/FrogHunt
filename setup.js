@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 // Some functions which are probably specific to my application
 // Depends on papaparse.js (or better yet, papaparse.min.js).
 
