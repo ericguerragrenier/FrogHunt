@@ -9,8 +9,8 @@ Hylidae,D_versicolor,FALSE,NA,Artificial,images/Dversicolor_007.jpg,TRUE,Fredlyf
 Hylidae,D_versicolor,FALSE,NA,Ground,images/Dversicolor_008.jpg,TRUE,Richard Crook
 Hylidae,D_versicolor,FALSE,NA,Tree,images/Dversicolor_009.jpg,TRUE,Agape Yojimbo
 Hylidae,D_versicolor,FALSE,NA,Tree,images/Dversicolor_010.jpg,TRUE,Patrick Coin
-Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_011.jpeg,TRUE,Nathalie Jreidini
-Hylidae,D_versicolor,FALSE,NA,Water,images/Dversicolor_012.jpeg,TRUE,Nathalie Jreidini
+Hylidae,D_versicolor,TRUE,NA,Tree,images/Dversicolor_011.jpg,TRUE,Nathalie Jreidini
+Hylidae,D_versicolor,FALSE,NA,Water,images/Dversicolor_012.jpg,TRUE,Nathalie Jreidini
 Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_001.jpg,FALSE,Ryan Hodnett
 Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_002.jpg,FALSE,Judy Gallagher
 Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_003.jpg,FALSE,Mark Nenadov
@@ -18,48 +18,48 @@ Ranidae,L_clamitans,TRUE,NA,Water,images/Lclamitans_004.jpg,FALSE,Ryan Hodnett
 Ranidae,L_clamitans,TRUE,NA,Ground,images/Lclamitans_005.jpg,FALSE,Contrabaroness
 Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_006.jpg,FALSE,Mark Nenadov
 Ranidae,L_clamitans,TRUE,NA,Ground,images/Lclamitans_007.jpg,FALSE,Derek Ramsey
-Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_008.jpeg,FALSE,Kathy Hofmeyer Woughter
-Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_009.jpeg,FALSE,Steven Lamonde
-Ranidae,L_clamitans,FALSE,NA,Artificial,images/Lclamitans_010.jpeg,FALSE,Kalvin Chan
+Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_008.jpg,FALSE,Kathy Hofmeyer Woughter
+Ranidae,L_clamitans,FALSE,NA,Ground,images/Lclamitans_009.jpg,FALSE,Steven Lamonde
+Ranidae,L_clamitans,FALSE,NA,Artificial,images/Lclamitans_010.jpg,FALSE,Kalvin Chan
 Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_001.jpg,TRUE,Peter Paplanus
 Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_002.jpg,TRUE,Judy Gallagher
 Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_003.jpg,TRUE,Paul Cooper
 Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_004.jpg,TRUE,Brandon Preston
 Ranidae,L_palustris,TRUE,NA,Ground,images/Lpalustris_005.jpg,TRUE,mayfly1963
-Ranidae,L_palustris,TRUE,NA,Artificial,images/Lpalustris_006.jpeg,TRUE,Eric Guerra-Grenier
-Ranidae,L_palustris,TRUE,NA,Water,images/Lpalustris_007.jpeg,TRUE,botanygirl
-Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_008.jpeg,TRUE,Laura Costello
-Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_009.jpeg,TRUE,Nick Block
-Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_010.jpeg,TRUE,Ashwin Srinivasan
+Ranidae,L_palustris,TRUE,NA,Artificial,images/Lpalustris_006.jpg,TRUE,Eric Guerra-Grenier
+Ranidae,L_palustris,TRUE,NA,Water,images/Lpalustris_007.jpg,TRUE,botanygirl
+Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_008.jpg,TRUE,Laura Costello
+Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_009.jpg,TRUE,Nick Block
+Ranidae,L_palustris,FALSE,NA,Ground,images/Lpalustris_010.jpg,TRUE,Ashwin Srinivasan
 Ranidae,L_pipiens,TRUE,NA,Artificial,images/Lpipiens_001.jpg,FALSE,Brian Gratwicke
 Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_002.jpg,FALSE,Ryan Hodnett
 Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_003.jpg,FALSE,Ryan Hodnett
 Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_004.jpg,FALSE,Bernell
 Ranidae,L_pipiens,TRUE,NA,Water,images/Lpipiens_005.jpg,FALSE,Will Brown
-Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_006.jpeg,FALSE,Eric Guerra-Grenier
-Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_007.jpeg,FALSE,georectified - Sean
-Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_008.jpeg,FALSE,Esben Kjaer
+Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_006.jpg,FALSE,Eric Guerra-Grenier
+Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_007.jpg,FALSE,georectified - Sean
+Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_008.jpg,FALSE,Esben Kjaer
 Ranidae,L_pipiens,TRUE,NA,Water,images/Lpipiens_009.jpg,FALSE,houstonsullivan
 Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_010.jpg,FALSE,Marilynn Miller
-Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_011.jpeg,FALSE,Nathalie Jreidini
-Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_012.jpeg,FALSE,Nathalie Jreidini
-Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_013.jpeg,FALSE,Nathalie Jreidini
+Ranidae,L_pipiens,TRUE,NA,Ground,images/Lpipiens_011.jpg,FALSE,Nathalie Jreidini
+Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_012.jpg,FALSE,Nathalie Jreidini
+Ranidae,L_pipiens,FALSE,NA,Ground,images/Lpipiens_013.jpg,FALSE,Nathalie Jreidini
 Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_001.jpg,FALSE,Peter Paplanus
 Ranidae,L_sylvaticus,TRUE,NA,Ground,images/Lsylvaticus_002.jpg,FALSE,Peter Paplanus
 Ranidae,L_sylvaticus,TRUE,NA,Water,images/Lsylvaticus_003.jpg,FALSE,christine123
 Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_004.jpg,FALSE,Andy Reago & Chrissy McClarren
-Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_005.jpeg,FALSE,Eric Guerra-Grenier
+Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_005.jpg,FALSE,Eric Guerra-Grenier
 Ranidae,L_sylvaticus,TRUE,NA,Ground,images/Lsylvaticus_006.jpg,FALSE,Sheila Collins Bourgoin
 Ranidae,L_sylvaticus,TRUE,NA,Artificial,images/Lsylvaticus_007.jpg,FALSE,David McCorquodale
-Ranidae,L_sylvaticus,TRUE,NA,Water,images/Lsylvaticus_008.jpeg,FALSE,Jacob Saucier
+Ranidae,L_sylvaticus,TRUE,NA,Water,images/Lsylvaticus_008.jpg,FALSE,Jacob Saucier
 Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_009.jpg,FALSE,Patrick Hanly
 Ranidae,L_sylvaticus,FALSE,NA,Ground,images/Lsylvaticus_010.jpg,FALSE,Lisa Levine
 Hylidae,P_crucifer,FALSE,NA,Artificial,images/P_crucifer_001.jpg,FALSE,Brian Gratwicke
 Hylidae,P_crucifer,FALSE,NA,Ground,images/P_crucifer_002.jpg,FALSE,Kevin Enge
 Hylidae,P_crucifer,FALSE,NA,Ground,images/Pcrucifer_003.jpg,FALSE,er-birds
 Hylidae,P_crucifer,FALSE,NA,Fern,images/Pcrucifer_004.jpg,FALSE,Dean Stavrides
-Hylidae,P_crucifer,FALSE,NA,Ground,images/Pcrucifer_005.jpeg,FALSE,Ali Campbell
-Hylidae,P_crucifer,TRUE,NA,Tree,images/Pcrucifer_006.jpeg,FALSE,Dan MacNeal
+Hylidae,P_crucifer,FALSE,NA,Ground,images/Pcrucifer_005.jpg,FALSE,Ali Campbell
+Hylidae,P_crucifer,TRUE,NA,Tree,images/Pcrucifer_006.jpg,FALSE,Dan MacNeal
 Hylidae,P_crucifer,TRUE,NA,Tree,images/Pcrucifer_007.jpg,FALSE,Evan Grimes
 Hylidae,P_crucifer,TRUE,NA,Artificial,images/Pcrucifer_008.jpg,FALSE,David McCorquodale
 Hylidae,P_crucifer,TRUE,NA,Artificial,images/Pcrucifer_009.jpg,FALSE,Dan MacNeal
