@@ -70,7 +70,7 @@ class FirebaseLogger extends ConsoleDataLogger {
         // Add created_at field
         obj.created_at = new Date().toISOString();
         //console.log("FIREBASE: " + this.jsonify(obj));
-        firebase.database().ref().push().set(obj)
+        firebase.database().ref('mimic-scores').push().set(obj)
             .then(function(snapshot) {
                 //console.log('FIREBASE success: ' + snapshot);
                 //success(); // some success method
