@@ -2,7 +2,7 @@
 const escapeTimeout = 5000;
 
 // Number of photos to show in a single trial
-const numPhotos = 60;
+const numPhotos = 20;
 
 // Show user their mistakes?
 const showUserMistakes = true;
