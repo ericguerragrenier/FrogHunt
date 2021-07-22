@@ -56,7 +56,7 @@ function PrepareAndStartTrial(logger, photosPerTrial, photosCsvUrl, photoEleId, 
     function prepare(data) {
         // Derive columns required by the PhotoSeq constructor
         var candidatePhotos = data.map(n => {
-            n.correctScore = n.isMimic == "TRUE" ? "Toxic" : "notToxic";
+            n.correctScore = n.isMimic == "yes" ? "Toxic" : "notToxic";
             n.url = n.webURL;
             return n;
         });
