@@ -79,7 +79,7 @@ body#trial { background: black; color: #e0e0e0; }
 /* When an image is scored by the user, it is given a class with the
    name of the score. Translate it away appropriately. */
 .Toxic { transform: translate(-90%, 30%) scale(.2, .2); opacity: 0; }
-.Not toxic { transform: translate(90%, -10%) scale(.2, .2); opacity: 0; }
+.notToxic { transform: translate(90%, -10%) scale(.2, .2); opacity: 0; }
 .escape { transform: translate(20%, -100%) scale(.2, .2); opacity: 0; }
 .loading { transform: scale(.2, .2); opacity: 0; }
 
