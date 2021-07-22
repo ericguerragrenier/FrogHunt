@@ -49,11 +49,8 @@
                   var p = photos.find(function(p) {
                       return p.webUrl == item;
                   });
-                  var descr = p.family == "Formicidae" ? "an ant" :
-                      p.class == "Insecta" && p.isMimic ? "an ant-mimicking insect" :
-                      p.class == "Insecta" ? "an insect" :
-                      p.isMimic ? "an ant-mimicking spider" :
-                      "a spider";
+                  var descr = p.isMimic == "TRUE" ? "A toxic frog" :
+                              p.isMimic == "FALSE" ? "Not a toxic frog" ;
                   return "<tr><td>This is " + descr + "</td>" +
                       "<td><img src='" + item + "'></td></tr>";
               }
@@ -131,7 +128,7 @@
     </p>
 
     <div id="mistakes">
-      <h2>Tricked!</h2>
+      <h2>What made you sick!</h2>
       <p>
       <table id="errTable">
       </table>
