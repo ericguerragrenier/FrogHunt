@@ -73,12 +73,26 @@
       We would like to thank the many people who have generously allowed us to use their pictures of frogs. Copyright is retained by the respective photographers, and links to their original work can be found <a href="pictureURLs.html" target="_blank">here</a></li>. 
     </p>
     <p>Photographers, in alphabetical order:
-      <script type="text/javascript">
-			Papa.parse(document.getElementById('photo_info_withurls').files[0], {
+	    
+	<table id="tbl-data">
+	</table>
+        <script type="text/javascript">
+			Papa.parse(document.getElementById('photo_info_withurls.csv').files[0], {
 				download: true,
 				header: true,
 				complete: function(results) {
 					console.log(results);
+					let i = 0;
+					results.data.map((data, index)=> {
+						if (i === 0) {
+							let table = document.getElementById('tbl-data');
+							generateTableHead(table, data);
+						} else {
+							let table = document.getElementById('tbl-data');
+							generateTableRows(table, data);
+						}
+						i++;
+					});
 				
 				}
 			});
