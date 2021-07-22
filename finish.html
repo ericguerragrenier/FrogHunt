@@ -73,20 +73,36 @@
       We would like to thank the many people who have generously allowed us to use their pictures of frogs. Copyright is retained by the respective photographers, and links to their original work can be found <a href="pictureURLs.html" target="_blank">here</a></li>. 
     </p>
     <p>Photographers, in alphabetical order:
-      <ul>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-<li> Name </li>
-      </ul>
+      <script type="text/javascript">
+			Papa.parse(document.getElementById('photo_info_withurls').files[0], {
+				download: true,
+				header: true,
+				complete: function(results) {
+					console.log(results);
+				
+				}
+			});
+
+		function generateTableHead(table, data) {
+			let thead = table.createTHead();
+			let row = thead.insertRow();
+			for(let key of data) {
+				let th = document.createElement('th');
+				let text = document.createTextNode(key);
+				th.appendChild(text);
+				row.appendChild(th);
+			}
+		}
+
+		function generateTableRows(table, data) {
+			let newRow = table.insertRow(-1);
+			data.map((row, index)=> {
+				let newCell = newRow.insertCell();
+				let newText = document.createTextNode(row);
+				newCell.appendChild(newText);
+			});
+		}
+	</script>
     </p>
 
     <div id="mistakes">
