@@ -10,26 +10,8 @@
     <script src="papaparse.min.js"></script>
     <script language="javascript">
 
-      function sendEmail(e) {
-          var emailAddress = document.getElementById("email").value;
-          if (emailAddress) {
-              // Get the data logger
-              let logger = ChooseLogger();
-              // Use same sessionId if possible
-              let sessionId = getCookie("sessionId");
-              if (sessionId)
-                  logger.sessionId = sessionId;
-              // Log the email address
-              logger.logUserEmail(emailAddress);
-              // Show thanks message and hide the email form
-              document.getElementById("thanks").style.display = "";
-              document.getElementById("emailBlock").style.display = "none";
-          }
-          // Don't submit the form to a server
-          return false;
-      }
 
-      // Displays the uer's total time taken
+      // Displays the user's total time taken
       function showTime(time) {
           var elems = document.body.querySelectorAll(".showtime");
           for (let elem of elems) {
@@ -87,18 +69,6 @@
       seconds!</span>
       <span id="congrats"></span>
     </p>
-
-    <div id="emailBlock">
-      <p>If you would like to be notified of the outcome of this research, please leave your email address below.
-        If you choose to supply your email address, we will not use it for any other purpose, nor will we supply it to any third party.
-
-        <form id="emailForm">
-          Email: <input type="email" id="email">
-          <input id="submit" type="submit" value="Submit" class="button">
-        </form>
-
-    </div>
-    <p class="thanks" id="thanks" style="display:none">Thanks, we'll be in touch!
 
     <p><a href="index.html" class="button">Try again</a>
 
