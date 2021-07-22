@@ -58,8 +58,6 @@ function PrepareAndStartTrial(logger, photosPerTrial, photosCsvUrl, photoEleId, 
         var candidatePhotos = data.map(n => {
             n.correctScore = n.isMimic == "TRUE" ? "Toxic" : "notToxic";
             n.url = n.webURL;
-		// Ants seem to weight others, so weight them down a little
-            	n.weight = n.correctScore == "Toxic" ? 0.85 : 1;
             return n;
         });
 
