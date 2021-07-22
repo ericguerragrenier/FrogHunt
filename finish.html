@@ -5,7 +5,6 @@
     <script src="trial.js"></script>
     <script src="trial-params.js"></script>
     <script src="logger.js"></script>
-    <script src="mfb.js"></script>
     <script src="user.js"></script>
     <script src="setup.js"></script>
     <script src="papaparse.min.js"></script>
@@ -47,7 +46,7 @@
               // Fill in the rows
               function photoToRow(item) {
                   var p = photos.find(function(p) {
-                      return p.webUrl == item;
+                      return p.webURL == item;
                   });
                   var descr = p.isMimic == "TRUE" ? "A toxic frog" :
                               p.isMimic == "FALSE" ? "Not a toxic frog" ;
@@ -137,13 +136,31 @@
 
     
       <!-- ==================================================================== -->
-      <!-- The core Firebase JS SDK is always required and must be listed first -->
-      <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-app.js"></script>
-      <!-- <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script> -->
-      <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
-      <script>
-        InitFirebase();
-      </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCUAYKOO3ahtqnuFeRyO6_y3l_uJJmIZ14",
+    authDomain: "froghunt-e433d.firebaseapp.com",
+    databaseURL: "https://froghunt-e433d-default-rtdb.firebaseio.com",
+    projectId: "froghunt-e433d",
+    storageBucket: "froghunt-e433d.appspot.com",
+    messagingSenderId: "584472516285",
+    appId: "1:584472516285:web:cd0c700327b075fd1d49d4",
+    measurementId: "G-Z0HKP6W09W"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
       <!-- ==================================================================== -->
 
   </body>
