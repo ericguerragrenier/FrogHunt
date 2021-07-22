@@ -70,54 +70,7 @@
       This game was created using software generously made public by <span class="label">Jim McLean</span>. 
 
     <p>
-      We would like to thank the many people who have generously allowed us to use their pictures of frogs. Copyright is retained by the respective photographers, and links to their original work can be found <a href="pictureURLs.html" target="_blank">here</a></li>. 
-    </p>
-    <p>Photographers, in alphabetical order:
-	    
-	<table id="tbl-data">
-	</table>
-        <script type="text/javascript">
-			Papa.parse(document.getElementById('photo_info_withurls.csv').files[0], {
-				download: true,
-				header: true,
-				complete: function(results) {
-					console.log(results);
-					let i = 0;
-					results.data.map((data, index)=> {
-						if (i === 0) {
-							let table = document.getElementById('tbl-data');
-							generateTableHead(table, data);
-						} else {
-							let table = document.getElementById('tbl-data');
-							generateTableRows(table, data);
-						}
-						i++;
-					});
-				
-				}
-			});
-
-		function generateTableHead(table, data) {
-			let thead = table.createTHead();
-			let row = thead.insertRow();
-			for(let key of data) {
-				let th = document.createElement('th');
-				let text = document.createTextNode(key);
-				th.appendChild(text);
-				row.appendChild(th);
-			}
-		}
-
-		function generateTableRows(table, data) {
-			let newRow = table.insertRow(-1);
-			data.map((row, index)=> {
-				let newCell = newRow.insertCell();
-				let newText = document.createTextNode(row);
-				newCell.appendChild(newText);
-			});
-		}
-	</script>
-    </p>
+      We would like to thank the many people who have generously allowed us to use their pictures of frogs. Copyright is retained by the respective photographers, and links to their original work can be found <a href="https://github.com/ericguerragrenier/froghunt/photo_info_withurls">here</a>. 
 
     <div id="mistakes">
       <h2>What kind of meal was this? </h2>
