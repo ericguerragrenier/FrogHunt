@@ -62,6 +62,12 @@
     <script>
       function StartTrial() {
           
+          // is this for debugging only (i.e. not real data)?
+          const debug = IsDebugging();
+
+          // Get the data logger
+          var logger = ChooseLogger(debug);
+        
           // Allow user to press keys to select a button, t or T for a toxic prey, n or N for a non-toxic prey
           var shortcutKeys = {t: "Toxic", T: "Toxic", n: "notToxic", N: "notToxic"};
 
