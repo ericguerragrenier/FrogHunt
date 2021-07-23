@@ -16,6 +16,21 @@ var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("treatmentPicture").src = myPix[randomNum];
+  
+            // is this for debugging only (i.e. not real data)?
+          const debug = IsDebugging();
+          // Is this the user's first attempt?
+          const noob = GetUrlParam("noob") == "T";
+
+      // Get the data logger
+          var logger = ChooseLogger(debug);
+       
+      // Which treatment is this?
+      const treatment = document.getElementById("treatmentPicture");
+      
+      // Log the session
+      logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
+  
   };
    </script>  
     
@@ -55,34 +70,6 @@ function choosePic() {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-</script>
-
-  <script>
-   // Select random treatment picture
-   var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg","images2/Lpalustris_006.jpg","images2/Lpalustris_010.jpg");
-   function choosePic() {
-      var randomNum = Math.floor(Math.random() * myPix.length);
-      document.getElementById("treatmentPicture").src = myPix[randomNum];
-      };
-    
-    function StartTrial() {
-          // is this for debugging only (i.e. not real data)?
-          const debug = IsDebugging();
-          // Is this the user's first attempt?
-          const noob = GetUrlParam("noob") == "T";
-
-      // Get the data logger
-          var logger = ChooseLogger(debug);
-       
-      // Which treatment is this?
-      const treatment = document.getElementById("treatmentPicture");
-      
-      // Log the session
-      logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
-       
-    };
-
-  window.onload = StartTrial;
   </script>
 
 </body>
