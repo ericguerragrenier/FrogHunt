@@ -55,8 +55,6 @@ window.onload = StartTrial;
           const debug = IsDebugging();
           // Is this the user's first attempt?
           const noob = GetUrlParam("noob") == "T";
-          // Which treatment is this?
-          const treatment = document.getElementById("treatmentPicture");
 
       // Get the data logger
           var logger = ChooseLogger(debug);
