@@ -45,7 +45,14 @@
 </script>
 
   <script>
-     function StartTrial() {
+   // Select random treatment picture
+   var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg","images2/Lpalustris_006.jpg","images2/Lpalustris_010.jpg");
+   function choosePic() {
+      var randomNum = Math.floor(Math.random() * myPix.length);
+      document.getElementById("treatmentPicture").src = myPix[randomNum];
+      };
+    
+    function StartTrial() {
           // is this for debugging only (i.e. not real data)?
           const debug = IsDebugging();
           // Is this the user's first attempt?
@@ -54,21 +61,15 @@
       // Get the data logger
           var logger = ChooseLogger(debug);
        
-      // Select random treatment picture
-       var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg","images2/Lpalustris_006.jpg","images2/Lpalustris_010.jpg");
-       function choosePic() {
-          var randomNum = Math.floor(Math.random() * myPix.length);
-          document.getElementById("treatmentPicture").src = myPix[randomNum];
-           };
-
       // Log the session
           // Which treatment is this?
           const treatment = document.getElementById("treatmentPicture");
       logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
        
-      RecordTreatment(logger, choosePic)  
+      RecordTreatment(logger)  
            };
 
+  window.onload = choosePic;
   window.onload = StartTrial;
   </script>
 
