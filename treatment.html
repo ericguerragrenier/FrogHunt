@@ -62,13 +62,13 @@
       // Get the data logger
           var logger = ChooseLogger(debug);
        
+      // Which treatment is this?
+      const treatment = document.getElementById("treatmentPicture");
+      
       // Log the session
-          // Which treatment is this?
-          const treatment = document.getElementById("treatmentPicture");
       logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
        
-      RecordTreatment(logger)  
-           };
+    };
 
   window.onload = choosePic;
   window.onload = StartTrial;
