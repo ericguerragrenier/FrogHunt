@@ -31,13 +31,14 @@ class ConsoleDataLogger {
     }
 
     // Saves session info
-    logUserSession(noob, screenWidth, screenheight, devicePixelRatio, userAgent) {
+    logUserSession(noob, screenWidth, screenheight, devicePixelRatio, imageUrl, userAgent) {
         this._log({type: "session",
                    userId: this.uid,
                    firstTime: noob,
                    screenWidth: screenWidth,
                    screenheight: screenheight,
                    devicePixelRatio: devicePixelRatio,
+                   imageUrl: imageUrl
                    userAgent: userAgent});
     }
     
