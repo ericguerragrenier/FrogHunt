@@ -19,7 +19,14 @@ function choosePic() {
     
   </head>
   <body id="treatment">
-    <img src="images2/blank.jpg" width="500" height="333" id="treatmentPicture">
+    <h1>This was your first prey!</h1>
+    
+    <p> <span class="important">Remember  it.</span> When you are ready, click on the Begin button. Happy hunting!
+
+    <p>
+      <a href="trial.html" class="play button">Begin</a>
+
+    <img class="model" src="images2/blank.jpg" width="500" height="333" id="treatmentPicture">
 
      <!-- ==================================================================== -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -47,6 +54,26 @@ function choosePic() {
   firebase.analytics();
 </script>
 
+  <script>
+     function StartTrial() {
+          // is this for debugging only (i.e. not real data)?
+          const debug = IsDebugging();
+          // Is this the user's first attempt?
+          const noob = GetUrlParam("noob") == "T";
+          // Which treatment is this?
+          const treatment = document.getElementById("treatmentPicture");
+
+      // Get the data logger
+          var logger = ChooseLogger(debug);
+
+          // Log the session
+          logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
+
+           }
+      
+      window.onload = StartTrial;
+
+  </script>
+
 </body>
 </html>
-
