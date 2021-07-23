@@ -9,7 +9,6 @@
     <script language="javascript">
 
 window.onload = StartTrial;
-  };
       
 </script>
     
@@ -67,9 +66,12 @@ window.onload = StartTrial;
        function choosePic() {
           var randomNum = Math.floor(Math.random() * myPix.length);
           document.getElementById("treatmentPicture").src = myPix[randomNum];
+           };
 
       // Log the session
-          logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
+          // Which treatment is this?
+          const treatment = document.getElementById("treatmentPicture");
+      logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
        
       RecordTreatment(logger, choosePic)  
            }
