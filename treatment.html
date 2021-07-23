@@ -26,7 +26,7 @@ function choosePic() {
           var logger = ChooseLogger(debug);
        
       // Which treatment is this?
-      const treatment = document.getElementById("treatmentPicture");
+      const treatment = document.getElementById("treatmentPicture").src = myPix[randomNum];
       
       // Log the session
       logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
