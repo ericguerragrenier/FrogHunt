@@ -38,7 +38,7 @@ class ConsoleDataLogger {
                    screenWidth: screenWidth,
                    screenheight: screenheight,
                    devicePixelRatio: devicePixelRatio,
-                   imageUrl: imageUrl
+                   imageUrl: treatment,
                    userAgent: userAgent});
     }
     
