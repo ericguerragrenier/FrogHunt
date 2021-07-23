@@ -8,14 +8,9 @@
     <script src="papaparse.min.js"></script>
     <script language="javascript">
 
-window.onload = choosePic;
-
-var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg","images2/Lpalustris_006.jpg","images2/Lpalustris_010.jpg");
-
-function choosePic() {
-     var randomNum = Math.floor(Math.random() * myPix.length);
-     document.getElementById("treatmentPicture").src = myPix[randomNum];
+window.onload = StartTrial;
   };
+      
 </script>
     
   </head>
@@ -66,13 +61,18 @@ function choosePic() {
 
       // Get the data logger
           var logger = ChooseLogger(debug);
+       
+      // Select random treatment picture
+       var myPix = new Array("images2/Dversicolor_001.jpg","images2/Dversicolor_009.jpg","images2/Lpalustris_006.jpg","images2/Lpalustris_010.jpg");
+       function choosePic() {
+          var randomNum = Math.floor(Math.random() * myPix.length);
+          document.getElementById("treatmentPicture").src = myPix[randomNum];
 
-          // Log the session
+      // Log the session
           logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
-
+       
+      RecordTreatment(logger, choosePic)  
            }
-      
-      window.onload = StartTrial;
 
   </script>
 
