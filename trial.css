@@ -62,7 +62,7 @@ a.button:active{
 }
 
 /* -------------- Front (and other) page --------------- */
-body#index, body#start, body#finish {background: #002B10; color: #e7fbeb; font-size:120% }
+body#index, body#start, body#treatment, body#finish {background: #002B10; color: #e7fbeb; font-size:120% }
 body#index { max-width: 53em; margin: auto }
 a.play { display:inline-block; clear:left; padding: .5em; }
 a.consent { display:none; clear:left; padding: .8em; }
