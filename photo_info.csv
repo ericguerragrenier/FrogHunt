@@ -2,10 +2,8 @@ Family,Species,legsExposed,Angle,Background,webURL,isMimic,Photographer
 Hylidae,D_versicolor,no,NA,Ground,images/Dversicolor_002.jpg,yes,Peter Paplanus
 Hylidae,D_versicolor,no,NA,Artificial,images/Dversicolor_007.jpg,yes,Fredlyfish4
 Hylidae,D_versicolor,no,NA,Ground,images/Dversicolor_008.jpg,yes,Richard Crook
-Hylidae,D_versicolor,no,NA,Tree,images/Dversicolor_009.jpg,yes,Agape Yojimbo
 Hylidae,D_versicolor,no,NA,Tree,images/Dversicolor_010.jpg,yes,Patrick Coin
 Hylidae,D_versicolor,no,NA,Water,images/Dversicolor_012.jpg,yes,Nathalie Jreidini
-Hylidae,D_versicolor,yes,NA,Tree,images/Dversicolor_001.jpg,yes,Sheila Brown
 Hylidae,D_versicolor,yes,NA,Artificial,images/Dversicolor_003.jpg,yes,Fredlyfish4
 Hylidae,D_versicolor,yes,NA,Tree,images/Dversicolor_004.jpg,yes,Geoff Gallice
 Hylidae,D_versicolor,yes,NA,Artificial,images/Dversicolor_005.jpg,yes,Judy Gallagher
@@ -35,11 +33,9 @@ Ranidae,L_palustris,no,NA,Ground,images/Lpalustris_002.jpg,yes,Judy Gallagher
 Ranidae,L_palustris,no,NA,Ground,images/Lpalustris_003.jpg,yes,Paul Cooper
 Ranidae,L_palustris,no,NA,Ground,images/Lpalustris_008.jpg,yes,Laura Costello
 Ranidae,L_palustris,no,NA,Ground,images/Lpalustris_009.jpg,yes,Nick Block
-Ranidae,L_palustris,no,NA,Ground,images/Lpalustris_010.jpg,yes,Ashwin Srinivasan
 Ranidae,L_palustris,yes,NA,Ground,images/Lpalustris_001.jpg,yes,Peter Paplanus
 Ranidae,L_palustris,yes,NA,Ground,images/Lpalustris_004.jpg,yes,Brandon Preston
 Ranidae,L_palustris,yes,NA,Ground,images/Lpalustris_005.jpg,yes,mayfly1963
-Ranidae,L_palustris,yes,NA,Artificial,images/Lpalustris_006.jpg,yes,Eric Guerra-Grenier
 Ranidae,L_palustris,yes,NA,Water,images/Lpalustris_007.jpg,yes,botanygirl
 Ranidae,L_palustris,yes,NA,Ground,images/Lpalustris_011.jpg,yes,Eric Guerra-Grenier
 Ranidae,L_pipiens,no,NA,Ground,images/Lpipiens_003.jpg,no,Ryan Hodnett
