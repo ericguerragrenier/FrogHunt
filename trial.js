@@ -10,7 +10,7 @@ The score buttons:
   class = "score"
   id = score value (e.g. "Toxic")
 
-When the trial is finished, the URL is set to "finish.html".
+When the trial is finished, the URL is set to "choices.html".
 */
 
 // =======================
@@ -180,7 +180,7 @@ class Trial {
     }
 
     // Called when there are no more images to be scored. Saves the total
-    // time in a cookie, and displays the finish page
+    // time in a cookie, and displays the choices page
     trialFinished() {
         setCookie("totalTime", this.logger.totalElapsed);
         setCookie("totalScored", this.totalScored);
@@ -188,7 +188,7 @@ class Trial {
         // Save the session ID so we can optionally report user's results if we decide that's a good idea
         setCookie("sessionId", this.logger.sessionId);
         // Browse to the finish page
-        window.location = "finish.html"; 
+        window.location = "choices.html"; 
     }
     
     // Records the user's classification for the current image.  Animates
