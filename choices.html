@@ -3,6 +3,7 @@
     <title>Frog Hunt</title>
     <link href="trial.css" rel="stylesheet">
     <script src="logger.js"></script>
+    <script src="user.js"></script>
     <script src="mfb.js"></script>
     <script language = "javascript">
   // Select all checkboxes using querySelectorAll.
@@ -16,9 +17,9 @@
         Array.from(checkboxes) // Convert checkboxes to an array to use filter and map.
         .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
         .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
-    }
-  };
-  
+    })
+  });
+
 </script>
 
   <head>
