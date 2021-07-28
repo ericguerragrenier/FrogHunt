@@ -55,6 +55,7 @@ class ConsoleDataLogger {
     // Saves the user's variables used for decision making throughout the game
    logUserChoices(userChoices) {
         this._log({type: "choices",
+                   userId: this.uid,
                    score: userChoices});
     }
     
