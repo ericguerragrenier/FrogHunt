@@ -14,6 +14,7 @@ Hylidae,P_crucifer,no,NA,Ground,images/Pcrucifer_002.jpg,no,Kevin Enge
 Hylidae,P_crucifer,no,NA,Ground,images/Pcrucifer_003.jpg,no,er-birds
 Hylidae,P_crucifer,no,NA,Fern,images/Pcrucifer_004.jpg,no,Dean Stavrides
 Hylidae,P_crucifer,no,NA,Ground,images/Pcrucifer_005.jpg,no,Ali Campbell
+Hylidae,P_crucifer,no,NA,Ground,images/Pcrucifer_011.jpg,no,Victoria Tawa
 Hylidae,P_crucifer,yes,NA,Tree,images/Pcrucifer_006.jpg,no,Dan MacNeal
 Hylidae,P_crucifer,yes,NA,Tree,images/Pcrucifer_007.jpg,no,Evan Grimes
 Hylidae,P_crucifer,yes,NA,Artificial,images/Pcrucifer_008.jpg,no,David McCorquodale
@@ -24,8 +25,8 @@ Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_006.jpg,no,Mark Nenadov
 Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_008.jpg,no,Kathy Hofmeyer Woughter
 Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_009.jpg,no,Steven Lamonde
 Ranidae,L_clamitans,no,NA,Artificial,images/Lclamitans_010.jpg,no,Kalvin Chan
+Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_012.jpg,no,Nathalie Jreidini
 Ranidae,L_clamitans,yes,NA,Water,images/Lclamitans_001.jpg,no,Ryan Hodnett
-Ranidae,L_clamitans,yes,NA,Water,images/Lclamitans_002.jpg,no,Judy Gallagher
 Ranidae,L_clamitans,yes,NA,Water,images/Lclamitans_004.jpg,no,Ryan Hodnett
 Ranidae,L_clamitans,yes,NA,Ground,images/Lclamitans_005.jpg,no,Contrabaroness
 Ranidae,L_clamitans,yes,NA,Ground,images/Lclamitans_007.jpg,no,Derek Ramsey
@@ -61,6 +62,3 @@ Ranidae,L_sylvaticus,yes,NA,Water,images/Lsylvaticus_003.jpg,no,christine123
 Ranidae,L_sylvaticus,yes,NA,Ground,images/Lsylvaticus_006.jpg,no,Sheila Collins Bourgoin
 Ranidae,L_sylvaticus,yes,NA,Artificial,images/Lsylvaticus_007.jpg,no,David McCorquodale
 Ranidae,L_sylvaticus,yes,NA,Water,images/Lsylvaticus_008.jpg,no,Jacob Saucier
-Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_011.jpg,no,Victoria Tawa
-Ranidae,L_clamitans,no,NA,Ground,images/Lclamitans_012.jpg,no,Nathalie Jreidini
-Hylidae,P_crucifer,no,NA,Ground,images/Pcrucifer_011.jpg,no,Victoria Tawa
