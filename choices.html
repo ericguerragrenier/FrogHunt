@@ -21,6 +21,7 @@
 
 <p>
       <a href="finish.html" class="play button">Done</a>
+
      <!-- ==================================================================== -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
@@ -46,9 +47,7 @@ InitFirebase();
         .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
         .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
       
-   logUserChoices(userChoices) {
-        this._log({type: "choices",
-                   score: userChoices});
+   logger.logUserChoices(userChoices);
 
 </body>
 </html>
