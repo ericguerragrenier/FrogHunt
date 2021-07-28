@@ -47,6 +47,9 @@ InitFirebase();
         .filter(i => i.checked) // Use Array.filter to remove unchecked checkboxes.
         .map(i => i.value) // Use Array.map to extract only the checkbox values from the array of objects.
       
+  // Log the results
+  const debug = IsDebugging();
+  var logger = ChooseLogger(debug);    
    logger.logUserChoices(userChoices);
 </script>
 
