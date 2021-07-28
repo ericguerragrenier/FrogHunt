@@ -14,10 +14,12 @@ function LogAndDone() {
                   logger.sessionId = sessionId;
 
   // Select all checkboxes
-    var Shape = document.getElementById('Shape').checked;
+  var Shape = document.getElementById('Shape').checked;
   var Color = document.getElementById('Color').checked;
   var Knowledge = document.getElementById('Knowledge').checked;
   var None = document.getElementById('None').checked;
+    const values = [Shape, Color, Knowledge, None];
+
 
   if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
@@ -25,9 +27,6 @@ function LogAndDone() {
       }
     else{
         return true;
-
-  const values = [Shape, Color, Knowledge, None];
-
 
 // Log the results
 
