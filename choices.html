@@ -8,13 +8,21 @@
     <script src="mfb.js"></script>
     <script language="javascript">
 function LogAndDone() {
-  // Select all checkboxes using querySelectorAll.
-  const checkboxes = document.querySelectorAll("input[type=checkbox]:checked");
-  let values = [];
-    checkboxes.forEach((checkbox) => {
-        values.push(checkbox.value);
-    });
-    return values;
+  // Select all checkboxes
+  var Shape = document.getElementById('Shape').checked;
+  var Color = document.getElementById('Color').checked;
+  var Knowledge = document.getElementById('Knowledge').checked;
+  var None = document.getElementById('None').checked;
+
+  if(Shape==false && Color==false && Knowledge==false && None==false){
+      alert('Please check at least one box!');
+      return false;
+      }
+    else{
+        return true;
+
+  var values = [Shape, Color, Knowledge, None];
+
 
 // Log the results
 let logger = ChooseLogger();  
@@ -23,6 +31,7 @@ let sessionId = getCookie("sessionId");
                   logger.sessionId = sessionId;
 logger.logUserChoices(values);
 
+      }
 };
 </script>
     
@@ -36,13 +45,13 @@ logger.logUserChoices(values);
   <p> <span class="important">What did you base your choices on? Check all that applies</span>
 
 <p>
-  <input type="checkbox"/> Frog shape</label><br>
-  <input type="checkbox"/> Frog coloration</label><br>
-  <input type="checkbox"/> Prior knowledge of frog anti-predator defenses</label><br>
-  <input type="checkbox"/> None of the above</label><br>
+  <input type="checkbox" name="choices" value="Shape" id="Shape"/> Frog shape</label><br>
+  <input type="checkbox" name="choices" value="Color" id="Color"/> Frog coloration</label><br>
+  <input type="checkbox" name="choices" value="Knowledge" id="Knowledge"/> Prior knowledge of frog anti-predator defenses</label><br>
+  <input type="checkbox" name="choices" value="None" id="None"/> None of the above</label><br>
 
 <p>
-      <a href="finish.html" class="play button" onclick="LogAndDone();">Done</a>
+      <a href="finish.html" class="play button" onclick="return LogAndDone()">Done</a>
 
      <!-- ==================================================================== -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
