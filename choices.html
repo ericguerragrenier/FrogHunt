@@ -14,21 +14,19 @@ function LogAndDone() {
                   logger.sessionId = sessionId;
 
   // Select all checkboxes
-  var Shape = document.getElementById('Shape').checked;
-  var Color = document.getElementById('Color').checked;
-  var Knowledge = document.getElementById('Knowledge').checked;
-  var None = document.getElementById('None').checked;
-  
-  const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
+  let Shape = document.getElementById('Shape').checked;
+  let Color = document.getElementById('Color').checked;
+  let Knowledge = document.getElementById('Knowledge').checked;
+  let None = document.getElementById('None').checked;
   
     if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
       }
     else{
-      logger.logUserChoices(values);
-      return true;
+        const values = [Shape, Color, Knowledge, None];
+        logger.logUserChoices(values);
+        return true;
       }
 };
 </script>
