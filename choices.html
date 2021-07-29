@@ -18,13 +18,14 @@ function LogAndDone() {
   var Color = document.getElementById('Color').checked;
   var Knowledge = document.getElementById('Knowledge').checked;
   var None = document.getElementById('None').checked;
+  
+  const values = [Shape, Color, Knowledge, None];
 
   if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
       }
     else{
-      const values = [Shape, Color, Knowledge, None];
       logger.logUserChoices(values);
       return true;
       }
