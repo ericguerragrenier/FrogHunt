@@ -54,11 +54,11 @@ function LogAndDone() {
       return false;
       }
     else{
-      return true;
+       const values = [Shape, Color, Knowledge, None];
+       logger.logUserChoices(values);
       }  
   
-  const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
+
   
 };
   
