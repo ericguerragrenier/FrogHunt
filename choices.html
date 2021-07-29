@@ -20,13 +20,14 @@ function LogAndDone() {
   var None = document.getElementById('None').checked;
   
   const values = [Shape, Color, Knowledge, None];
+  logger.logUserChoices(values);
+
 
   if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
       }
     else{
-      logger.logUserChoices(values);
       return true;
       }
 
