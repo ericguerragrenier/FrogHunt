@@ -6,35 +6,8 @@
     <script src="user.js"></script>
     <script src="setup.js"></script>
     <script src="mfb.js"></script>
-    <script language="javascript">
-      
-function LogAndDone() {
-  let logger = ChooseLogger();  
-  let sessionId = getCookie("sessionId");
-              if (sessionId)
-                  logger.sessionId = sessionId;
 
-  // Select all checkboxes
-  let Shape = document.getElementById('Shape').checked;
-  let Color = document.getElementById('Color').checked;
-  let Knowledge = document.getElementById('Knowledge').checked;
-  let None = document.getElementById('None').checked;
-  
-  const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
-  
-    if(Shape==false && Color==false && Knowledge==false && None==false){
-      alert('Please check at least one box!');
-      return false;
-      }
-    else{
-      alert('Thank you!');
-      return true;
-      }  
-};
-</script>
-    
-  <head>
+    <head>
 
 <body id="choices">
   <h1>Almost done!</h1>
@@ -65,5 +38,31 @@ function LogAndDone() {
 InitFirebase();
 </script>
 
+<script> 
+function LogAndDone() {
+  let logger = ChooseLogger();  
+  let sessionId = getCookie("sessionId");
+              if (sessionId)
+                  logger.sessionId = sessionId;
+
+  // Select all checkboxes
+  let Shape = document.getElementById('Shape').checked;
+  let Color = document.getElementById('Color').checked;
+  let Knowledge = document.getElementById('Knowledge').checked;
+  let None = document.getElementById('None').checked;
+  
+  const values = [Shape, Color, Knowledge, None];
+  logger.logUserChoices(values);
+  
+    if(Shape==false && Color==false && Knowledge==false && None==false){
+      alert('Please check at least one box!');
+      return false;
+      }
+    else{
+      return true;
+      }  
+};
+</script>
+  
 </body>
 </html>
