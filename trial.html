@@ -53,7 +53,7 @@ InitFirebase();
           const debug = IsDebugging();
 
           // Get the data logger
-          var logger = ChooseLogger(debug);
+          let logger = ChooseLogger();
           let sessionId = getCookie("sessionId");
               if (sessionId)
                   logger.sessionId = sessionId;
