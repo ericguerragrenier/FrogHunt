@@ -23,7 +23,13 @@ function LogAndDone() {
   const values = [Shape, Color, Knowledge, None];
   logger.logUserChoices(values);
   
-  return true;
+    if(Shape==false && Color==false && Knowledge==false && None==false){
+      alert('Please check at least one box!');
+      return false;
+      }
+    else{
+      return true;
+      }  
 };
 </script>
     
