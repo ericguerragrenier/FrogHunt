@@ -21,9 +21,8 @@
     <input type="checkbox" name="choices" value="Knowledge" id="Knowledge"/> Prior knowledge of frog anti-predator defenses</label><br>
     <input type="checkbox" name="choices" value="None" id="None"/> None of the above</label><br>
 
-  <a href="finish.html" class="play button" onclick="return LogAndDone()">Done</a>
-
-</form>
+  <p>
+    <a href="finish.html" class="play button" onclick="return LogAndDone()">Done</a>
 
      <!-- ==================================================================== -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -51,13 +50,13 @@ function LogAndDone() {
   let None = document.getElementById('None').checked;
   
   const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
   
     if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
       }
     else{
+      logger.logUserChoices(values);
       return true;
       }  
 };
