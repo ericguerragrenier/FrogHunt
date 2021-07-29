@@ -7,6 +7,7 @@
     <script src="setup.js"></script>
     <script src="mfb.js"></script>
     <script language="javascript">
+      
 function LogAndDone() {
   let logger = ChooseLogger();  
   let sessionId = getCookie("sessionId");
@@ -19,12 +20,10 @@ function LogAndDone() {
   let Knowledge = document.getElementById('Knowledge').checked;
   let None = document.getElementById('None').checked;
   
+  
     if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
-      }
-    else{
-      return true;
       }
   
   const values = [Shape, Color, Knowledge, None];
