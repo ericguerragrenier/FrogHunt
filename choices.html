@@ -48,17 +48,15 @@ function LogAndDone() {
   let Color = document.getElementById('Color').checked;
   let Knowledge = document.getElementById('Knowledge').checked;
   let None = document.getElementById('None').checked;
-  
-  const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
+
   
     if(Shape==false && Color==false && Knowledge==false && None==false){
       alert('Please check at least one box!');
       return false;
       }
-    else{
-      return true;
-      }  
+  
+  const values = [Shape, Color, Knowledge, None];
+  logger.logUserChoices(values);
 };
   
 </script>
