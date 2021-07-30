@@ -10,15 +10,19 @@
     <script src="papaparse.min.js"></script>
     <script language="javascript">
 
+var randomNum;
 window.onload = choosePic;
 
 var myPix = new Array("images2/Dversicolor_001_treatment.jpg","images2/Dversicolor_009_treatment.jpg","images2/Lpalustris_006_treatment.jpg","images2/Lpalustris_010_treatment.jpg","images2/Lclamitans_002_treatment.jpg","images2/Lclamitans_011_treatment.jpg");
 
 function choosePic() {
-     var randomNum = Math.floor(Math.random() * myPix.length);
+     randomNum = Math.floor(Math.random() * myPix.length);
      document.getElementById("treatmentPicture").src = myPix[randomNum];
-  
-            // is this for debugging only (i.e. not real data)?
+         
+  };
+
+  function LogAndStart(){
+     // is this for debugging only (i.e. not real data)?
           const debug = IsDebugging();
           // Is this the user's first attempt?
           const noob = GetUrlParam("noob") == "T";
@@ -33,10 +37,11 @@ function choosePic() {
       const treatment = document.getElementById("treatmentPicture").src = myPix[randomNum];
       
       // Log the session
-      logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent);
-  
-  };
+      logger.logUserSession(noob, window.screen.width, window.screen.height, window.devicePixelRatio, treatment, navigator.userAgent, "trial.html");
+
+  }
    </script>  
+ 
     
     
   </head>
@@ -46,7 +51,7 @@ function choosePic() {
     <p> <span class="important">Remember  it.</span> When you are ready, click on the Begin button. Happy hunting!
 
     <p>
-      <a href="trial.html" class="play button">Begin</a>
+      <a class="play button" onclick="LogAndStart()">Begin</a>
 
     <img class="model" src="images2/blank.jpg" width="500" height="395" id="treatmentPicture">
 

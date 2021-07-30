@@ -31,7 +31,7 @@ class ConsoleDataLogger {
     }
 
     // Saves session info
-    logUserSession(noob, screenWidth, screenheight, devicePixelRatio, treatment, userAgent) {
+    logUserSession(noob, screenWidth, screenheight, devicePixelRatio, treatment, userAgent, returnPage) {
         this._log({type: "session",
                    userId: this.uid,
                    firstTime: noob,
@@ -39,7 +39,8 @@ class ConsoleDataLogger {
                    screenheight: screenheight,
                    devicePixelRatio: devicePixelRatio,
                    imageUrl: treatment,
-                   userAgent: userAgent});
+                   userAgent: userAgent,
+                   returnPage: returnPage});
     }
     
     // Saves the user's classification of an image
@@ -53,10 +54,10 @@ class ConsoleDataLogger {
     }
 
     // Saves the user's variables used for decision making throughout the game
-   logUserChoices(values) {
+   logUserChoices(values, returnPage) {
         this._log({type: "choices",
-                   userId: this.uid,
-                   score: values});
+                   score: values,
+                   returnPage: returnPage});
     }
     
     // Saves the user's email address because they have requested to be
@@ -78,8 +79,20 @@ class FirebaseLogger extends ConsoleDataLogger {
         // Add created_at field
         obj.created_at = new Date().toISOString();
         //console.log("FIREBASE: " + this.jsonify(obj));
+       
+        // Check if the return page has been set and remove it from the saved data
+        var returnPage;
+        if (obj.hasOwnProperty("returnPage")){
+            returnPage = obj.returnPage;
+            delete obj.returnPage;
+        }
+       
         firebase.database().ref('mimic-scores').push().set(obj)
             .then(function(snapshot) {
+                // Return to the selected page if it has been set
+                if (typeof returnPage !== 'undefined'){
+                    window.location = returnPage;
+                }
                 //console.log('FIREBASE success: ' + snapshot);
                 //success(); // some success method
             }, function(error) {
