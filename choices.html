@@ -6,7 +6,36 @@
     <script src="user.js"></script>
     <script src="setup.js"></script>
     <script src="mfb.js"></script>
-  </head>
+    <script language="javascript">
+
+function LogAndDone() {
+  let logger = ChooseLogger();  
+  let sessionId = getCookie("sessionId");
+              if (sessionId)
+                  logger.sessionId = sessionId;
+
+  // Select all checkboxes
+  var Shape = document.getElementById('Shape').checked;
+  var Color = document.getElementById('Color').checked;
+  var Knowledge = document.getElementById('Knowledge').checked;
+  var None = document.getElementById('None').checked;
+  
+  const values = [Shape, Color, Knowledge, None];
+  consol.log(values);
+
+  if(Shape==false && Color==false && Knowledge==false && None==false){
+      alert('Please check at least one box!');
+      return false;
+      }
+    else{
+      consol.log(values);
+      return true;
+      }
+
+};
+</script>
+    
+  <head>
 
 <body id="choices">
   <h1>Almost done!</h1>
@@ -15,14 +44,15 @@
 
   <p> <span class="important">What did you base your choices on? Check all that apply</span>
 
-  <p>
-    <input type="checkbox" name="choices" value="Shape" id="Shape"/> Frog shape</label><br>
-    <input type="checkbox" name="choices" value="Color" id="Color"/> Frog coloration</label><br>
-    <input type="checkbox" name="choices" value="Knowledge" id="Knowledge"/> Prior knowledge of frog anti-predator defenses</label><br>
-    <input type="checkbox" name="choices" value="None" id="None"/> None of the above</label><br>
+  <form action="finish.html" method="get" onsubmit="return LogAndDone()">
 
-  <p>
-    <a href="finish.html" class="play button" onclick="return LogAndDone()">Done</a>
+  <input type="checkbox" name="choices" value="Shape" id="Shape"/> Frog shape</label><br>
+  <input type="checkbox" name="choices" value="Color" id="Color"/> Frog coloration</label><br>
+  <input type="checkbox" name="choices" value="Knowledge" id="Knowledge"/> Prior knowledge of frog anti-predator defenses</label><br>
+  <input type="checkbox" name="choices" value="None" id="None"/> None of the above</label><br>
+
+  <input type="submit" class="play button" value="Done"/>
+
 
      <!-- ==================================================================== -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -36,30 +66,5 @@
 InitFirebase();
 </script>
 
-<script> 
-function LogAndDone() {
-  let logger = ChooseLogger();  
-  let sessionId = getCookie("sessionId");
-              if (sessionId)
-                  logger.sessionId = sessionId;
-
-  // Select all checkboxes
-  let Shape = document.getElementById('Shape').checked;
-  let Color = document.getElementById('Color').checked;
-  let Knowledge = document.getElementById('Knowledge').checked;
-  let None = document.getElementById('None').checked;
-
-  
-    if(Shape==false && Color==false && Knowledge==false && None==false){
-      alert('Please check at least one box!');
-      return false;
-      }
-  
-  const values = [Shape, Color, Knowledge, None];
-  logger.logUserChoices(values);
-};
-  
-</script>
-  
 </body>
 </html>
