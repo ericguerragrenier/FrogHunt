@@ -78,12 +78,12 @@
               attrRow("legsExposed") + 
               attrRow("Angle") + 
               attrRow("Background") + 
-              "<tr><td class='h'>URL</td><td>" + photo.webUrl + "</td></tr>" +
+              "<tr><td class='h'>URL</td><td>" + photo.webURL + "</td></tr>" +
               "<tr><td class='h'>Mimic?</td><td>" + photo.isMimic + "</td></tr>" +
               attrRow("Photographer") + 
               "</table>" + 
               "</td>" + 
-              "<td><img src='" + photo.webUrl + "'></td>";
+              "<td><img src='" + photo.webURL + "'></td>";
       }
 
 function showPhotos(data) {
@@ -99,8 +99,8 @@ function showPhotos(data) {
 
           // Fill in summary details
           document.getElementById("numphotos").innerText = data.length;
-          document.getElementById("numtoxic").innerText = data.filter(p => p.isMimic).length;
-          document.getElementById("numnontoxic").innerText = data.filter(p => !p.isMimic).length;
+          document.getElementById("numtoxic").innerText = data.filter(p => p.isMimic === "yes").length;
+          document.getElementById("numnontoxic").innerText = data.filter(p => p.isMimic === "no").length;
       }
       
       ReadPhotosCSV(PHOTOS_INFO_URL, showPhotos);
