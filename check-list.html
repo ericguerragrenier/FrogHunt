@@ -99,8 +99,8 @@ function showPhotos(data) {
 
           // Fill in summary details
           document.getElementById("numphotos").innerText = data.length;
-          document.getElementById("numtoxic").innerText = data.filter(p => p.isMimic === "yes").length;
-          document.getElementById("numnontoxic").innerText = data.filter(p => p.isMimic === "no").length;
+          document.getElementById("numtoxic").innerText = data.filter(p => p.isMimic).length;
+          document.getElementById("numnontoxic").innerText = data.filter(p => !p.isMimic).length;
       }
       
       ReadPhotosCSV(PHOTOS_INFO_URL, showPhotos);
